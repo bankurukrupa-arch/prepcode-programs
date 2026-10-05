@@ -1,0 +1,6 @@
+price = int(input("enter the price:"))
+quantity = int(input("enter the quantity:"))
+delivery = int(input("enter the delivery charge:"))
+discount = int(input("enter the discount:"))
+final_bill = (price + quantity) + delivery - ((price * quantity)*discount / 100)
+print("final bill =",final_bill)
