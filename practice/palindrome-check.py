@@ -1,7 +1,7 @@
 class Solution:
     def isPalindrome(self, word: str) -> bool:
         word = "racecar"
-        if word == True:
-            print("it is a palindrome")
+        if word == word[::-1]:
+            print(True)
         else:
-            print("it is not a palindrome")    
+            print(False)    
