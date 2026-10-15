@@ -1,4 +1,7 @@
-departments = ["CSE", "ECE", "IT", "EEE]
+departments = ["CSE", "ECE", "IT", "EEE"]
 department = "CSE"
 
-if depa
+if department in departments:
+    print("department available")
+else:
+    print("department not available")    
